@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="font-bold bg-green-100 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
+        <h1 class="text-3xl">Greenden</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="h-6 w-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="gap-5 text-gray-600 hidden md:flex">
+            <li><a class="hover:underline hover:text-black" href="index.html">Home</a></li>
+            <li><a class="hover:underline hover:text-black" href="products.html">Products</a></li>
+            <li><a class="hover:underline hover:text-black" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--Products-->
+    <section class="text-center mt-5">
+        <h1 class="text-3xl font-bold">Our Products</h1>
+        <input type="text" class="border border-black rounded-lg p-3 m-5 w-3/4" placeholder="Search for a Product...">
+    </section>
+
+    <!--Product Cards-->
+    <section class="mt-5 text-center">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div>
+                <img src="./images/plant2.avif" class="w-40 inline mb-3 rounded-lg hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="plant">
+                <h1>Pink Rose Plant</h1>
+                <p class="mb-5">$20</p>
+            </div>
+            <div>
+                <img src="./images/plant3.avif" class="w-40 h-60 inline mb-3 rounded-lg hover:shadow-2xl transform hover:-translate-y-2" alt="plant">
+                <h1>Hydrangea Macrophylla</h1>
+                <p class="mb-5">$50</p>
+            </div>
+            <div>
+                <img src="./images/plant4.jpg" class="w-40 inline mb-3 rounded-lg hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="plant">
+                <h1>Red Tulips</h1>
+                <p class="mb-5">$40</p>
+            </div>
+            <div>
+                <img src="./images/plant5.avif" class="w-40 inline mb-3 rounded-lg hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="plant">
+                <h1>Purple Chrysanthemum</h1>
+                <p class="mb-5">$30</p>
+            </div>
+            <div>
+                <img src="./images/plant6.jpg" class="w-40 inline mb-3 rounded-lg hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="plant">
+                <h1>Pink Orchid</h1>
+                <p class="mb-5">$40</p>
+            </div>
+            <div>
+                <img src="./images/plant7.jpg" class="w-40 h-60 inline mb-3 rounded-lg hover:shadow-2xl transform hover:-translate-y-2" alt="plant">
+                <h1>White Chrysanthemums</h1>
+                <p class="mb-5">$30</p>
+            </div>
+            <div>
+                <img src="./images/plant8.jpg" class="w-40 h-60 inline mb-3 rounded-lg hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="plant">
+                <h1>Anthuriums</h1>
+                <p class="mb-5">$25</p>
+            </div>
+            <div>
+                <img src="./images/plant9.jpg" class="w-40 inline mb-3 rounded-lg hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="plant">
+                <h1>Cherry Blossom</h1>
+                <p class="mb-5">$50</p>
+            </div>
+        </div>
+    </section>
+
+        <!--Footer-->
+    <section class="bg-green-100 p-5 flex flex-col gap-3">
+        <h1 class="text-3xl font-bold">Greenden</h1>
+        <p>© 2025 Greenden, All rights reserved.</p>
+    </section>
+
+</body>
+</html>
