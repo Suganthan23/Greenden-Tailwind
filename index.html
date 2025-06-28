@@ -15,7 +15,7 @@
     <nav class="font-bold bg-green-100 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
         <h1 class="text-3xl">Greenden</h1>
 
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
             class="h-6 w-6 md:hidden">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
@@ -26,6 +26,19 @@
             <li><a class="hover:underline hover:text-black" href="contact.html">Contact</a></li>
         </ul>
     </nav>
+
+    <!--Side Navbar-->
+    <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000" style="width: 50%; height: 100vh; right:-50%">
+        <div class="text-right p-5">
+            <p id="closenav" class="inline cursor-pointer">X</p>
+        </div>
+        <ul class="flex flex-col gap-5 items-center text-gray-600">
+            <li><a class="hover:underline hover:text-black" href="index.html">Home</a></li>
+            <li><a class="hover:underline hover:text-black" href="products.html">Products</a></li>
+            <li><a class="hover:underline hover:text-black" href="contact.html">Contact</a></li>
+        </ul>
+    </section>
+
 
     <!--Header-->
     <section class="bg-green-100 p-4 flex justify-center gap-x-20">
@@ -74,7 +87,8 @@
 
 
                 <h2 class="text-xl font-medium">Fast Delivery</h2>
-                <p>Fast delivery ensures your plant arrives quickly. Our efficient services will deliver the plant to you on time.</p>
+                <p>Fast delivery ensures your plant arrives quickly. Our efficient services will deliver the plant to
+                    you on time.</p>
             </div>
             <div class="border border-black m-7 p-2">
 
@@ -96,25 +110,27 @@
         <h1 class="text-3xl font-bold">Best Seller</h1>
         <div class="grid grid-cols-2 md:grid-cols-4 mt-5">
             <div>
-                <img src="./images/plant2.avif" class="w-40 inline mb-3 rounded-lg hover:shadow-2xl transform hover:-translate-y-2"
-                    alt="plant">
+                <img src="./images/plant2.avif"
+                    class="w-40 inline mb-3 rounded-lg hover:shadow-2xl transform hover:-translate-y-2" alt="plant">
                 <h1>Pink Rose Plant</h1>
                 <p class="mb-5">$20</p>
             </div>
             <div>
-                <img src="./images/plant3.avif" class="w-40 h-60 inline mb-3 rounded-lg hover:shadow-2xl transform hover:-translate-y-2" alt="plant">
+                <img src="./images/plant3.avif"
+                    class="w-40 h-60 inline mb-3 rounded-lg hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="plant">
                 <h1>Hydrangea Macrophylla</h1>
                 <p class="mb-5">$50</p>
             </div>
             <div>
-                <img src="./images/plant4.jpg" class="w-40 inline mb-3 rounded-lg hover:shadow-2xl transform hover:-translate-y-2"
-                    alt="plant">
+                <img src="./images/plant4.jpg"
+                    class="w-40 inline mb-3 rounded-lg hover:shadow-2xl transform hover:-translate-y-2" alt="plant">
                 <h1>Red Tulips</h1>
                 <p class="mb-5">$40</p>
             </div>
             <div>
-                <img src="./images/plant5.avif" class="w-40 inline mb-3 rounded-lg hover:shadow-2xl transform hover:-translate-y-2"
-                    alt="plant">
+                <img src="./images/plant5.avif"
+                    class="w-40 inline mb-3 rounded-lg hover:shadow-2xl transform hover:-translate-y-2" alt="plant">
                 <h1>Purple Chrysanthemum</h1>
                 <p class="mb-5">$30</p>
             </div>
@@ -127,15 +143,18 @@
         <h1 class="text-3xl font-bold text-center mt-5">Customer Reviews</h1>
         <div class="flex flex-col m-5 gap-3 justify-center text-white">
             <div class="bg-green-900 p-5 container">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sint fuga, consectetur earum ea eligendi iure! Quas cum dolorum illum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sint fuga, consectetur earum ea
+                    eligendi iure! Quas cum dolorum illum.</p>
                 <h2 class="text-yellow-500 font-bold">Jenny</h2>
             </div>
             <div class="bg-green-900 p-5 container">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, excepturi rem! Aliquid eos dignissimos praesentium enim rem culpa recusandae officiis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, excepturi rem! Aliquid eos
+                    dignissimos praesentium enim rem culpa recusandae officiis.</p>
                 <h2 class="text-yellow-500 font-bold">Mathew</h2>
             </div>
             <div class="bg-green-900 p-5 container">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum atque soluta repellat repellendus adipisci similique in voluptates libero architecto eaque!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum atque soluta repellat repellendus
+                    adipisci similique in voluptates libero architecto eaque!</p>
                 <h2 class="text-yellow-500 font-bold">Thomas</h2>
             </div>
         </div>
@@ -155,6 +174,8 @@
         <h1 class="text-3xl font-bold">Greenden</h1>
         <p>© 2025 Greenden, All rights reserved.</p>
     </section>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
